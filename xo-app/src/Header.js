@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './XO_Logo.svg';
 import './Header.css';
 
 class Header extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <header className="Header-body">
           <img src={logo} className="Header-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            XO Game
           </p>
-          <a
-            className="Header-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
       </div>
     );

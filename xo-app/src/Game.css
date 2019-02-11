@@ -1,0 +1,19 @@
+.Field {
+    padding-top: 10vmin;
+    border-collapse:collapse;
+    margin: 0 auto;
+    width: 60vmin
+  }
+  
+.Field-row {
+    display: table-row;
+}
+
+.Field-cell {
+    height: 20vmin;
+    width: 20vmin;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    border: solid black;
+}
