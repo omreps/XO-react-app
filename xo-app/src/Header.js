@@ -9,7 +9,7 @@ class Header extends Component {
         <header className="Header-body">
           <img src={logo} className="Header-logo" alt="logo" />
           <p>
-            XO Game
+            Xo game
           </p>
         </header>
       </div>

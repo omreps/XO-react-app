@@ -1,0 +1,22 @@
+.Cell {
+    height: 20vmin;
+    width: 20vmin;
+    text-align: center;
+    display: table-cell;
+    border: solid black;
+    font-size: 10vmin;
+    line-height: 17vmin;
+}
+
+.Blink {
+    color: red;
+    animation: blinker 1s step-start infinite;
+    animation-iteration-count: 3;
+    animation-delay: 0.5s;
+  }
+  
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
